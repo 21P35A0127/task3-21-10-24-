@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 20px;
+    text-shadow: 1.5px 1.5px 2px;
+}
+
+.flex-container {
+    display: flex;
+    padding: 20px;
+    gap: 5px;
+}
+
+.flex-container>div {
+    height: 50px;
+    border: 2px solid;
+}
+
+.flex-child1 {
+    flex-basis: 300px;
+    flex-shrink: 40;
+    background-color: rgb(146, 198, 34);
+}
+
+.flex-child2 {
+    flex-basis: 200px;
+    flex-shrink: 20;
+    background-color: blue;
+}
+
+.flex-child3 {
+    flex-basis: 1;
+    flex-shrink: 2;
+    background-color: rgb(175, 160, 167);
+}
+
+.flex-child4 {
+    flex-basis: 400px;
+    flex-shrink: 20;
+    background-color: rgb(230, 49, 142);
+}
